@@ -1,0 +1,58 @@
+#nav {
+    background-color: orange;
+    width: 100%;
+    display: inline-block;
+    height: 30px;
+    position: fixed;
+}
+#nav a {
+    float: right;
+   font-size: 10px; 
+   padding-left: 25px;
+   text-decoration: none;
+   padding-top: 5px;
+   margin-right: 20px;
+   color: white;
+}
+#nav h1 {
+    float: left;
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    position: fixed;
+}
+.box1 {
+    width: 300px;
+    border: solid;
+}
+.box2 {
+    width: 300px;
+    border: solid;
+}
+.box3 {
+    width: 300px;
+    border: solid;
+}
+.box4 {
+    width: 300px;
+    border: solid;
+}
+.box1, .box2, .box3, .box4 {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-color: orange;
+    float: left;
+    border-radius: 15px;
+}
+.box1 h1, .box2 h1, .box3 h1, .box4 h1 {
+    padding-left: 10px;
+    font-family: "Times-New-Roman", sans-serif;
+}
+.box1 p, .box2 p, .box3 p, .box4 p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+body {
+    background-color: white;
+}
