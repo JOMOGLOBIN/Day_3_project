@@ -56,3 +56,31 @@
 body {
     background-color: white;
 }
+ul#flex-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 500px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+ul li {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 75px;
+    height: 250px;
+    padding-top: 75px;
+    margin-left: 50px;
+    color: black;
+    text-align: center;
+    width: 300px;
+}
+ul li:first-child {background: white; }
+ul li:nth-child(2) {background: white; }
+ul li:nth-child(3) {background: white; }
+ul li:last-child(4) {background: white; }
